@@ -1,20 +1,25 @@
 *{
     font-family: "helvetica neue", "helvetica", sans-serif;
+
 }
 
 header {
     width: 100%;
-    background-color: green;
-    border-bottom: 10px solid tan;
+    background-color: #255f4f;
+    border-bottom: 10px solid #dcb095;
     position: fixed;
+    top: 0;
+    left:0;
+    color: beige;
 }
 
 nav {
-    background-color: green;
+    background-color: #255f4f;
+    color: beige;
 }
 
 ul {
-    background-color: green;
+    background-color: #255f4f;
     text-align: right;
     color: white;
 }
@@ -22,7 +27,9 @@ ul {
 li {
     display:inline;
     list-style-type: none;
-    background-color: green;
+    background-color: #255f4f;
+    padding-right: 10px;
+    color: beige;
 }
 
 img {
@@ -32,57 +39,94 @@ img {
 
 h2 {
     text-align: center;
-    background-color: bisque;
+    background-color: #e8cebf;
+    color: #4f4847;
 }
 
 p {
     text-align: center;
+    padding-bottom: 10px;
+    color: #4f4847;
+}
+
+a:link {
+    color:beige;
+    text-decoration: none;
+}
+
+a:visited {
+    color:beige;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #dcb095;
 }
 
 .header-1{
     text-align: center;
-    padding: 20px;
+    padding-top: 20px;
+    color: #4f4847;
 }
 
 .content{
     background-color: beige;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #4f4847;
+    position: static;
+    left:0;
+    right:0;
 }
 
 #contact-me {
     width: 100%;
-    background-color: bisque;
-    border-top: 5px solid burlywood;
-    padding: 20px;
+    background-color: #e8cebf;
+    border-top: 5px solid #dcb095;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #4f4847;
 }
 
 #contact-1{
     margin: auto;
     width: 50%;
-    background-color: bisque;
-    border: 5px solid burlywood;
-    padding: 10px;
+    background-color: #e8cebf;
+    border: 10px solid #dcb095;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     text-align:center;
+    color: #4f4847;
 }
 
 #name{
+    text-align: center;
     display: block;
     padding: 3px;
-    background-color: bisque;
+    background-color: #e8cebf;
+    color: #4f4847;
 }
 
 #email{
+    text-align: center;
     display: block;
     padding: 3px;
-    background-color: bisque;
+    background-color:#e8cebf;
+    color: #4f4847;
 }
 
 #submit{
     display: block;
     padding: 3px;
-    background-color: bisque;
+    background-color: #e8cebf;
 }
 
 #footer {
+    color: beige;
     text-align: center;
+    width: 100%;
+    background-color: #255f4f;
+    padding: 10px;
+    border-bottom: 10px solid #4f4847;
 }
